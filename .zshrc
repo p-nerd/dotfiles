@@ -14,8 +14,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="spaceship"
-ZSH_THEME="candy"
+ZSH_THEME="spaceship"
+# ZSH_THEME="candy"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Functions
 function git-all {
-  git add .
+  git add -A
   if [ "$1" != "" ]
   then
       git commit -m "$1"
@@ -125,7 +125,8 @@ function git-all {
 alias vim="nvim"
 alias pa="php artisan"
 alias zshconfig="nvim ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias x="./x.sh"
 
 # Envs
 export GOPATH=$HOME/go
@@ -141,5 +142,14 @@ export PATH="$PATH:$PNPM_HOME"
 # Sources
 source $(brew --prefix nvm)/nvm.sh
 
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# pnpm
+export PNPM_HOME="/Users/shihab/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
