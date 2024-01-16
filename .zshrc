@@ -110,17 +110,17 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Functions
-function git-all {
-  git add -A
-  if [ "$1" != "" ]
-  then
-      git commit -m "$1"
-  else
-      git commit -m updates
-  fi
-  git push
-}
-
+# function git-all {
+#   git add -A
+#   if [ "$1" != "" ]
+#   then
+#       git commit -m "$1"
+#   else
+#       git commit -m updates
+#   fi
+#   git push
+# }
+#
 # Aliases
 alias vim="nvim"
 alias pa="php artisan"
