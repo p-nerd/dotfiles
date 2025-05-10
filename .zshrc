@@ -91,7 +91,8 @@ bindkey '^[w' kill-region
 ############################
 
 # Path
-export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omakub/bin:$PATH"
+export PATH="./bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # Editor
