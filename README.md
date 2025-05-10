@@ -17,25 +17,25 @@ $ stow .
 - Color: `Tokyo Night`
 - Font: `CaskaydiaMono Nerd Font`
 - Windows: `AeroSpace (OS X)`, `Gnome (Linux)`
-- 1. Browser:
-  - 1. `Chrome`
-  - 2. `Firefox`
-  - 3. `Safari`
-- 2. Terminal:
-  - 1. `Alacritty + Tmux + ZSH + fzf zoxide`, `Lazygit`, `Lazydocker`, `Neovim`
-  - 2. `VSCode`
-- 3. Tools:
-  - 1. `TablePlus`
-  - 2. `Copilot`,
-  - 3. `Claude`,
-  - 4. `Chatgpt`
-- 4. Messengers:
-  - 1. `Whatsapp`
-  - 2. `Discord`
-- 5. Productivity:
-  - 1. `Pomatez`,
-  - 2. `Todoist`
-  - 3. `Keep`,
-  - 4. `Asana`
-- 6. Files & Others:
-  - 1. `Finder`
+-   1. Browser:
+    -   1. `Chrome`
+    -   2. `Firefox`
+    -   3. `Safari`
+-   2. Terminal:
+    -   1. `Alacritty + Tmux + ZSH + fzf zoxide`, `Lazygit`, `Lazydocker`, `Neovim`
+    -   2. `VSCode`
+-   3. Tools:
+    -   1. `TablePlus`
+    -   2. `Copilot`
+    -   3. `Claude`
+    -   4. `Chatgpt`
+-   4. Messengers:
+    -   1. `Whatsapp`
+    -   2. `Discord`
+-   5. Productivity:
+    -   1. `Pomatez`,
+    -   2. `Todoist`
+    -   3. `Keep`,
+    -   4. `Asana`
+-   6. Files & Others:
+    -   1. `Finder`
