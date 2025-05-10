@@ -100,9 +100,6 @@ export SUDO_EDITOR="$EDITOR"
 
 # Wayland compatibility for Electron apps
 export ELECTRON_OZONE_PLATFORM_HINT="wayland"
-export QT_QPA_PLATFORM=wayland
-export SDL_VIDEODRIVER=wayland
-export MOZ_ENABLE_WAYLAND=1
 
 # Omakub
 export OMAKUB_PATH="/home/$USER/.local/share/omakub"
