@@ -8,6 +8,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 # Load Powerlevel10k configuration (run `p10k configure` to update)
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
+
 ############################
 # Plugin Manager: Zinit
 ############################
@@ -42,6 +43,7 @@ zinit snippet OMZP::command-not-found
 # Replay for certain plugins
 zinit cdreplay -q
 
+
 ############################
 # Completion Settings
 ############################
@@ -54,6 +56,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+
 
 ############################
 # History Settings
@@ -72,6 +75,7 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
+
 ############################
 # Keybindings
 ############################
@@ -81,12 +85,6 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
 
-############################
-# Shell Integrations
-############################
-
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
 
 ############################
 # Environment Variables
@@ -104,6 +102,16 @@ export ELECTRON_OZONE_PLATFORM_HINT="wayland"
 
 # Omakub
 export OMAKUB_PATH="/home/$USER/.local/share/omakub"
+
+
+############################
+# Shell Integrations
+############################
+
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
+eval "$(mise activate zsh)"
+
 
 ############################
 # Aliases
