@@ -128,3 +128,10 @@ alias learns="sessionizer learns"
 eval "$(mise activate zsh)"
 source <(fzf --zsh)
 eval "$(zoxide init --cmd cd zsh)"
+
+############################
+# Injected Configs
+############################
+
+export PATH="/home/shihab/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/shihab/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
