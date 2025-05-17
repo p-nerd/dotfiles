@@ -22,7 +22,7 @@ $ stow .
     -   2. `Firefox`
     -   3. `Safari`
 -   2. Terminal:
-    -   1. `Alacritty + Tmux + ZSH + fzf zoxide`, `Lazygit`, `Lazydocker`, `Neovim`
+    -   1. `WezTerm + Tmux + ZSH + fzf zoxide`, `Lazygit`, `Lazydocker`, `Neovim`
     -   2. `VSCode`
 -   3. Tools:
     -   1. `TablePlus`
@@ -33,9 +33,9 @@ $ stow .
     -   1. `Whatsapp`
     -   2. `Discord`
 -   5. Productivity:
-    -   1. `Pomatez`,
-    -   2. `Todoist`
-    -   3. `Keep`,
-    -   4. `Asana`
+    -   1. Pomodoro Timer:
+    -   2. To-do List: `Todoist`
+    -   3. Note-taking: `Obsidian`, `Keep`
+    -   4. Project Management: `Asana`
 -   6. Files & Others:
     -   1. `Finder`
